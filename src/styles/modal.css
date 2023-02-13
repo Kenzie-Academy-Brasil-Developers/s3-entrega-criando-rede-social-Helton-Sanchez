@@ -1,0 +1,60 @@
+.container__dialog {
+    width: 100vw;
+    height: 100vh;
+    background: #292828ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.container__dialog>form {
+    background: var(--grey-8);
+    width: 761px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 2rem;
+}
+
+
+.card__modal>img{
+    position: absolute;
+    top: 70px;
+    margin-left:30px ;
+}
+.card__modal>h3 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+.card__modal>span {
+    position: absolute;
+    top: 105px;
+    left: 100px;
+}
+.card__modal>h2 {
+    width: 80%;
+    margin-left: 30px;
+    position: absolute;
+    top: 150px;
+}
+.card__modal>p {
+    width: 90%;
+    margin-left:30px ;
+    position: absolute;
+    top: 300px;
+}
+.card__modal>button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: var(--grey-5);
+    color: var(--grey-2);
+    font-weight: 600;
+}

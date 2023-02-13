@@ -45,6 +45,10 @@ h4 {
     line-height: 1rem;
 }
 
+img{
+    width: 60px;
+}
+
 span {
     font-family: 'Inter';
     font-style: normal;
